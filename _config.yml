@@ -2,7 +2,7 @@
 title: Anatoly Kustanovich
 author:
   name: Anatoly Kustanovich
-description: "Python WIS course."
+description: "The bam2csv converter"
 
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
