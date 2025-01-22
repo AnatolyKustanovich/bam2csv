@@ -31,4 +31,12 @@ The output file will contain columns with the following:
 The bam2csv converter will be a convenient intermediate data file that can be used for further processing of data (depending on scientist demands) to analyze or graphically present data/analysis results.
 
 # How to run bam2csv converter:
+Please prepare:
+1. Input folder (containing bam/bai files)
+2. Output folder (to save files in .csv format)
+3. Reference fasta file used to produce bam file
+4. File in bed format
+
+Then run the following code:
+
 python "path to bam2csv.py" --input_folder "path to input folder" --output_folder "path to output folder" --reference_fasta "path to fasta file"  --bed_file "path to bed file"
