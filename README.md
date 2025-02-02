@@ -26,9 +26,7 @@ The output file will contain columns with the following:
   3. Reference sequence, 
   4. Total coverage, 
   5. Separate coverage for each of nucleotides (A, G, T, C) in each position
-  6. Some other information (e.g. percentage of each nucleotide). 
-# Conclusion 
-The bam2csv converter will be a convenient intermediate data file that can be used for further processing of data (depending on scientist demands) to analyze or graphically present data/analysis results.
+  6. Some other information (e.g. percentage of each nucleotide).
 
 # How to run bam2csv converter:
 Please prepare:
@@ -40,3 +38,8 @@ Please prepare:
 Then run the following code:
 
 python "path to bam2csv.py" --input_folder "path to input folder" --output_folder "path to output folder" --reference_fasta "path to fasta file"  --bed_file "path to bed file"
+
+# Conclusion 
+The bam2csv converter will be a convenient intermediate data file that can be used for further processing of data (depending on scientist demands) to analyze or graphically present data/analysis results.
+
+
